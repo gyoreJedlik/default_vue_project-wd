@@ -1,9 +1,11 @@
 <template>
-  <div class="container">ok</div>
+  <div class="container">okasdasasad</div>
 </template>
 
 <script>
-export default {};
+export default {
+  name:"app",
+};
 </script>
 
 <style>

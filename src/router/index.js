@@ -1,8 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
-
+import WD from '@/views/WalkingDead'
 
 const routes = [
-  
+  {path:'/', redirect: '/wd'},
+  {path:'/', component: WD}
 ]
 
 const router = createRouter({
