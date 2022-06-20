@@ -3,7 +3,7 @@ import WD from '@/views/WalkingDead'
 
 const routes = [
   {path:'/', redirect: '/wd'},
-  {path:'/', component: WD}
+  {path:'/wd', component: WD}
 ]
 
 const router = createRouter({
