@@ -1,4 +1,4 @@
-<template>
++<template>
   <div class="container my-5">
       <div class="row mb-5">
           <select-season :seasons="seasons" @onSelectedSeason="onSelectedSeason"/>
